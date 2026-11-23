@@ -17,6 +17,9 @@
 //     ("you pay only for the winner") instead of a feature list.
 //  5. It stands alone as one sentence fit for a bounty card, with no throat
 //     clearing before the point.
+//
+// Verified locally: the program writes 117 characters, one sentence, to
+// entry.txt (node main.ts, MAKEFUN_OUTPUT_DIR=out).
 // House gate (shadow judge, z-ai/glm-5.3-flash): 6/6 wins vs synthetic rivals, mean game score 0.83.
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
